@@ -1,0 +1,99 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6792c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6792c.dir/build.make CMakeFiles/cmTC_6792c.dir/build
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_6792c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTC_6792c.dir/CheckSymbolExists.cxx.o -c /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In Funktion »int main(int, char**)«:
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: Fehler: »Q_WS_WIN« wurde in diesem Gültigkeitsbereich nicht definiert
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_6792c.dir/build.make:65: die Regel für Ziel „CMakeFiles/cmTC_6792c.dir/CheckSymbolExists.cxx.o“ scheiterte
+make[1]: *** [CMakeFiles/cmTC_6792c.dir/CheckSymbolExists.cxx.o] Fehler 1
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:126: die Regel für Ziel „cmTC_6792c/fast“ scheiterte
+make: *** [cmTC_6792c/fast] Fehler 2
+
+File /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d435/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d435.dir/build.make CMakeFiles/cmTC_8d435.dir/build
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_8d435.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTC_8d435.dir/CheckSymbolExists.cxx.o -c /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In Funktion »int main(int, char**)«:
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: Fehler: »Q_WS_QWS« wurde in diesem Gültigkeitsbereich nicht definiert
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_8d435.dir/build.make:65: die Regel für Ziel „CMakeFiles/cmTC_8d435.dir/CheckSymbolExists.cxx.o“ scheiterte
+make[1]: *** [CMakeFiles/cmTC_8d435.dir/CheckSymbolExists.cxx.o] Fehler 1
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:126: die Regel für Ziel „cmTC_8d435/fast“ scheiterte
+make: *** [cmTC_8d435/fast] Fehler 2
+
+File /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20e64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20e64.dir/build.make CMakeFiles/cmTC_20e64.dir/build
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_20e64.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTC_20e64.dir/CheckSymbolExists.cxx.o -c /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In Funktion »int main(int, char**)«:
+/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: Fehler: »Q_WS_MAC« wurde in diesem Gültigkeitsbereich nicht definiert
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_20e64.dir/build.make:65: die Regel für Ziel „CMakeFiles/cmTC_20e64.dir/CheckSymbolExists.cxx.o“ scheiterte
+make[1]: *** [CMakeFiles/cmTC_20e64.dir/CheckSymbolExists.cxx.o] Fehler 1
+make[1]: Verzeichnis „/root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:126: die Regel für Ziel „cmTC_20e64/fast“ scheiterte
+make: *** [cmTC_20e64/fast] Fehler 2
+
+File /root/sdr-j-dabreceiver-0.98/large-gui/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
